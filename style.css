@@ -32,6 +32,11 @@ body{
 .section{
     width: 70%;
     margin: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .iframe{

@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container{
@@ -46,6 +47,7 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 12px;
     height: 530px;
+    overflow: auto;
 }
 
 .jornada{
@@ -121,4 +123,38 @@ body{
 .footer{
     text-align: center;
     padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+}
+
+/*resumenes*/
+
+.titulo-resumen{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    font-size: 25px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grilla-resumenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.marcador{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: #000 1px 1px;
 }

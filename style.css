@@ -167,3 +167,12 @@ body{
     border-radius: 10px;
     text-shadow: #000 1px 1px;
 }
+
+.titulo-narracion{
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.narracion{
+    padding: 15px;
+}

@@ -141,6 +141,8 @@ body{
 
 /*resumenes*/
 
+.contenedor-tabla,
+.titulo-tabla,
 .titulo-resumen{
     background-color: rgba(0, 0, 0, 0.6);
     color: #FFF;
@@ -182,4 +184,41 @@ body{
 .narracion{
     padding: 15px;
     display: none;
+}
+
+
+/*TABLA DE POSICIONES*/
+
+.contenedor-tabla{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tabla-posiciones{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor-tabla{
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tabla-titulo-grupo{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    margin:10px 0;
+}
+
+td, th{
+    padding: 5px;
+}
+
+table, tr, th, td{
+    border: 2px solid #AAA;
+    border-collapse: collapse;
 }

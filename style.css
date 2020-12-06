@@ -137,6 +137,7 @@ body{
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.6);
     color: #FFF;
+    margin-top: 50px;
 }
 
 /*resumenes*/
@@ -149,9 +150,21 @@ body{
     color: #FFF;
     font-size: 25px;
     padding: 15px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
     text-align: center;
+}
+
+.subtitulo-resumen{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #111;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
 }
 
 .grilla-resumenes{

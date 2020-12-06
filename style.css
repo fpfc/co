@@ -153,6 +153,7 @@ body{
     margin: 10px;
     border-radius: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 .subtitulo-resumen{
@@ -165,6 +166,7 @@ body{
     text-align: center;
     width: 90%;
     margin: auto;
+    cursor: pointer;
 }
 
 .grilla-resumenes{

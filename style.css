@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-body{
-    width: 90%;
-    margin: auto;
-}
-
 .header{
     text-align: center;
     background-color: red;
@@ -38,4 +33,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    width: 90%;
+    margin: auto;
 }

@@ -12,17 +12,32 @@
     margin-top: 5px;
     border-radius: 20px;
     color: #FFF;
+    padding: 5px;
 }
 
 .contentenedor-opcion{
     margin: 30px;
     width: 300px;
+    text-align: center;
 }
 
+.contenedor-img,
 .opcion{
     width: 250px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 20px;
-    margin: 5px;
+    display: inline-block;
+    border: 1px solid gray;
+    transition:all .5s ease-in-out;
+}
+
+.contentenedor-opcion:hover .opcion{
+    transform: scale(1.2);
+}
+
+.contenedor-img{
+    overflow: hidden;
 }
 
 .canal{
